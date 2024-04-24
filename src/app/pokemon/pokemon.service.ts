@@ -11,7 +11,7 @@ export class PokemonService {
   }
 
   getPokemonById(pokemonId:number):Pokemon|undefined{
-      return POKEMONS.find(pokemon => pokemon.id == pokemonId);
+
   }
 
   getPokemonTypeList(): string[]{
